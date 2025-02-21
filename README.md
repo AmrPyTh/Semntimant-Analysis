@@ -1,10 +1,10 @@
-Sentiment Analysis App using Machine Learning
+# Sentiment Analysis App using Machine Learning
 
-📌 Overview
+# 📌 Overview
 
 This Sentiment Analysis App is a machine learning-powered tool that classifies text as positive, negative, or neutral based on sentiment. It helps users analyze emotions in text data using Natural Language Processing (NLP) and Machine Learning (ML) models.
 
-🎯 Features
+# 🎯 Features
 
 ✅ User-friendly interface built with Streamlit
 
@@ -16,7 +16,7 @@ This Sentiment Analysis App is a machine learning-powered tool that classifies t
 
 ✅ Visual representation of sentiment distribution
 
-🔧 Technologies Used
+# 🔧 Technologies Used
 
 Python 🐍
 
