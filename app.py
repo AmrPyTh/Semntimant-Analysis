@@ -7,8 +7,8 @@ import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 
-model = pickle.load(open(r'F:\Doc\Ai\ODC\NLP\model.pkl', 'rb'))
-vectorizer = pickle.load(open(r'F:\Doc\Ai\ODC\NLP\vectorizer.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
+vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
 
 title = "<h1 style='text-align: center; color: green; white-space: nowrap;'>Semntimant Analysis App using ML</h1>" 
 st.markdown(title, unsafe_allow_html=True)
