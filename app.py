@@ -21,10 +21,7 @@ title = "<h1 style='text-align: center; color: green; white-space: nowrap;'>Semn
 st.markdown(title, unsafe_allow_html=True)
 text = st.text_input('Please Enter Your Review')
 state = st.button('Predict')
-# token = helper.preprocessing_step(text)
-# vectorized_data = vectorizer.transform([token])
 
-# prediction = model.predict(vectorized_data)
 if state:
     token = helper.preprocessing_step(text)
     vectorized_data = vectorizer.transform([token])
