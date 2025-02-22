@@ -3,19 +3,21 @@ import sklearn
 import helper
 import pickle
 import nltk
-import os
+# import os
 
 
 nltk.download('punkt')
 nltk.download('stopwords')
 
 
-model_path = os.path.join(os.getcwd(), 'model.pkl')
-vectorizer_path = os.path.join(os.getcwd(), 'vectorizer.pkl')
+# model_path = os.path.join(os.getcwd(), 'model.pkl')
+# vectorizer_path = os.path.join(os.getcwd(), 'vectorizer.pkl')
 
-model = pickle.load(open(model_path, 'rb'))
-vectorizer = pickle.load(open(vectorizer_path, 'rb'))
+# model = pickle.load(open(model_path, 'rb'))
+# vectorizer = pickle.load(open(vectorizer_path, 'rb'))
 
+model = load_model('model.pkl')
+vectorizer = load_model('vectorizer.pkl')
 
 title = "<h1 style='text-align: center; color: green; white-space: nowrap;'>Semntimant Analysis App using ML</h1>" 
 st.markdown(title, unsafe_allow_html=True)
